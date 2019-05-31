@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <title>Hello, world!</title>
+    <style>
+      #moive_table {
+        margin: 10%;
+        align-self: center
+      }
+      #moive_table th,#moive_table td {
+        border: 1px solid black;
+        text-align: center;
+      }
+      #moive_table img {
+        width: 18rem
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-fluid" style="border:1px solid black">
+      <h1>자기소개</h1>
+      <ul>
+        <li>이름 : 뚱이</li>
+        <li>사는곳 : 역삼동</li>
+        <li>뚱인데요?</li>
+      </ul>
+    </div>
+    <div class="container-fluid" style="border:1px solid black">
+      <h1>인생 영화 BEST 5</h1>
+      <table id="moive_table">
+        <caption></caption>
+        <thead>
+          <tr>
+            <th>순위</th>
+            <th>제목</th>
+            <th>포스터</th>
+            <th>줄거리</th>
+            <th>바로가기</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>1</th>
+            <td>아이언맨</td>
+            <td>
+              <img
+                src="../images/move1.jpg"
+                alt=""
+              />
+            </td>
+            <td>하이테크 슈퍼 히어로의 탄생 | 이제 업그레이드는 끝났다</td>
+            <td>
+              <a href="https://movie.naver.com/movie/bi/mi/basic.nhn?code=44885"
+                >바로가기</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <th>2</th>
+            <td>악마는 프라다를 입는다.</td>
+            <td>
+              <img
+                src="../images/move2.jpg"
+                alt=""
+              />
+            </td>
+            <td>화려한 뉴욕을 꿈꾸는 자, 그 무게를 견뎌라!</td>
+            <td>
+              <a href="https://movie.naver.com/movie/bi/mi/basic.nhn?code=44885"
+                >바로가기</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <th>3</th>
+            <td>아이언맨3</td>
+            <td>
+              <img
+                src="../images/move3.jpg"
+                alt=""
+              />
+            </td>
+            <td>
+              21세기 가장 매력적인 히어로의 귀환 지금까지의 아이언맨은 잊어라!
+            </td>
+            <td>
+              <a href="https://movie.naver.com/movie/bi/mi/basic.nhn?code=70254"
+                >바로가기</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <th>4</th>
+            <td>어벤져스</td>
+            <td>
+              <img
+                src="../images/move4.jpg"
+                alt=""
+              />
+            </td>
+            <td>
+              ASSEMBLE! 최강의 슈퍼히어로들이 모였다! 지구의 운명을 건 거대한
+              전쟁이 시작된다!
+            </td>
+            <td>
+              <a href="https://movie.naver.com/movie/bi/mi/basic.nhn?code=72363"
+                >바로가기</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <th>5</th>
+            <td>마음이</td>
+            <td>
+              <img
+                src="../images/move5.jpg"
+                alt=""
+              />
+            </td>
+            <td>
+              11살 나이답지 않게 듬직한 소년 찬이, 그리고 찬이의 6살 배기 떼쟁이
+              여동생 소이
+            </td>
+            <td>
+              <a href="https://movie.naver.com/movie/bi/mi/basic.nhn?code=42809"
+                >바로가기</a
+              >
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="container-fluid" style="border:1px solid black">
+    <h1>
+      방명록
+    </h1>
+    <form action="">
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="basic-addon1">이름</span>
+            </div>
+            <input type="text" class="form-control" placeholder="뚱이" aria-label="Username" aria-describedby="basic-addon1">
+        </div>
+      본인 취향 영화 <br />
+      <div>
+        <input type="radio" value="아이언맨1" />아이언맨1
+        <input type="radio" value="어벤져스" />어벤져스
+      </div>
+
+      <button type="submit" class="btn btn-outline-primary">등록</button>
+      <button type="reset" class="btn btn-outline-primary">취소</button>
+    </div>
+    </form>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
